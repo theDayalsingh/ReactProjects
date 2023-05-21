@@ -1,0 +1,11 @@
+.carousel {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    object-fit: cover;
+    background-color:rgba(199, 209, 228, 0.285)
+  }
+  
+/* .carouselImg{
+  width: 100%;
+} */
