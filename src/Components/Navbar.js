@@ -35,11 +35,11 @@ function NavbarHeader() {
             <Nav.Link href="/store" className="text-white fs-5 mx-3">
               FashionHub
             </Nav.Link>
-            <Nav.Link href="/blog" className="text-white fs-5 mx-3">
-              Vogue-Blog
-            </Nav.Link>
             <Nav.Link href="/about" className="text-white fs-5 mx-3">
               About
+            </Nav.Link>
+            <Nav.Link href="/contact" className="text-white fs-5 mx-3">
+              Contact-us
             </Nav.Link>
           </Nav>
           <Nav>

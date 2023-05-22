@@ -22,7 +22,7 @@ function HomeCard(props) {
         <ListGroup.Item>
           {props.price} Q:{props.quantity}
         </ListGroup.Item>
-        <Nav.Link to="/cart" onClick={()=>addToCart(id,price)}>
+        <Nav.Link to="/cart" >
         <Button className="list-group-flush text-center">
           Add to Cart
         </Button>
