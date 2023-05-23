@@ -12,7 +12,7 @@ function NavbarHeader() {
     <Navbar bg="dark" expand="lg" className="py-3">
       <Container fluid>
         <Nav.Link
-          href="/home"
+          href="/"
           className="border border-5 border-info rounded-4 bg-dark ms-3"
         >
           <h5 className="text-white fw-bold border p-1 border-5 rounded-3 border-primary m-1">
@@ -20,7 +20,7 @@ function NavbarHeader() {
           </h5>
         </Nav.Link>
         <Navbar.Brand
-          href="/home"
+          href="/"
           className="badge text-wrap fst-italic text-white mt-1"
         >
           <h5>VOGUEWAY</h5>

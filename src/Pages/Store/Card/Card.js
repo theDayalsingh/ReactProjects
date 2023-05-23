@@ -3,7 +3,6 @@ import Card from "react-bootstrap/Card";
 import ListGroup from "react-bootstrap/ListGroup";
 import Button from "react-bootstrap/Button";
 import CardImage from "./CardImage";
-import Nav from "react-bootstrap/Nav";
 
 function HomeCard(props) {
   
@@ -22,11 +21,10 @@ function HomeCard(props) {
         <ListGroup.Item>
           {props.price} Q:{props.quantity}
         </ListGroup.Item>
-        <Nav.Link to="/cart" >
-        <Button className="list-group-flush text-center">
-          Add to Cart
-        </Button>
-        </Nav.Link>
+        <Button href={`/products/${props.id}`} className="list-group-flush text-center">
+        Buy Now
+      </Button>
+       
       </ListGroup>
       <Card.Body className="text-center">
         <Button href="/store" className="rounded-5 mx-3 p-3 bg-info"></Button>

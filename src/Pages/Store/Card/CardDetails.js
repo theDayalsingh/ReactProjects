@@ -3,7 +3,7 @@ const CardDetails = [
     id:1,
     name: "Colors", 
        price: 100,
-    imageUrl: "https://prasadyash2411.github.io/ecom-website/img/Album%201.png",
+    imgURL: "https://images.pexels.com/photos/14610788/pexels-photo-14610788.jpeg?auto=compress&cs=tinysrgb&w=600",
     quantity: 2,
   },
 
@@ -11,7 +11,7 @@ const CardDetails = [
     id:2,
     name: "Black and white Colors",
     price: 50,
-    imageUrl: "https://prasadyash2411.github.io/ecom-website/img/Album%202.png",
+    imgURL: "https://images.pexels.com/photos/14610788/pexels-photo-14610788.jpeg?auto=compress&cs=tinysrgb&w=600",
     quantity: 3,
   },
 
@@ -19,7 +19,7 @@ const CardDetails = [
     id:3,
     name: "Yellow and Black Colors",
     price: 70,
-    imageUrl: "https://prasadyash2411.github.io/ecom-website/img/Album%203.png",
+    imgURL: "https://images.pexels.com/photos/14610788/pexels-photo-14610788.jpeg?auto=compress&cs=tinysrgb&w=600",
     quantity: 1,
   },
 ];
