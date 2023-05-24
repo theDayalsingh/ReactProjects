@@ -42,31 +42,33 @@ const Home = () => {
     <HomeCarousel/>
     <Container className='my-4'>
     <Row className='fs-2 mb-2'>
-      <Col className='text-center'><FaShippingFast/></Col>
-      <Col className='text-center'><GiReturnArrow/></Col>
-      <Col className='text-center'><MdOutlineSupportAgent/></Col>
-      <Col className='text-center'><TbSquareRoundedCheckFilled/></Col>
-      </Row>
-      <Row>
-      <Col className='text-center fs-5'>Free Shipping</Col>
-      <Col className='text-center fs-5'>30-Day Returns</Col>
-      <Col className='text-center fs-5'>24*7 Customer Suppport</Col>
-      <Col className='text-center fs-5'>Quality</Col>
-      </Row>
-      <Row className='text-center'>
-      
-      {cardshow}
+    <Col className='text-center'><FaShippingFast/></Col>
+    <Col className='text-center'><GiReturnArrow/></Col>
+    <Col className='text-center'><MdOutlineSupportAgent/></Col>
+    <Col className='text-center'><TbSquareRoundedCheckFilled/></Col>
+    </Row>
+    <Row>
+    <Col className='text-center fs-5'>Free Shipping</Col>
+    <Col className='text-center fs-5'>30-Day Returns</Col>
+    <Col className='text-center fs-5'>24*7 Customer Suppport</Col>
+    <Col className='text-center fs-5'>Quality</Col>
+    </Row>
+    <Row className='text-center'>
+
+    {cardshow}
+  
     
             </Row>
     </Container>
     <section className={classes.homesection}>
-    Updates on What Is Trending and New Product Launches
+    <h5 className='text-secondary'>Updates on What Is Trending and New Product Launches
 Since fast fashion seems to be extremely hard to keep up with these days, a quick update on what is trending in accessories, clothing and footwear would certainly be of great help. Myntra Studio helps you stay connected to the most beloved and sought after brands such as Puma, Coverstory, The Label Life and so many more.
 
 Your feed keeps you updated with stories of what the brands are creating including clothing, footwear and jewellery, along with their new seasonal collections.
-    </section>
+</h5> </section>
       <Container>
-      <Row>
+      <Row className='mt-3'>
+      <h3 className='text-center my-4 fw-bold py-2 bg-secondary'>OUR TESTINOMIALS</h3>
       
       {testinomialshow}
       

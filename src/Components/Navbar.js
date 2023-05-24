@@ -7,6 +7,7 @@ import Cart from "../Pages/Store/Cart";
 
 function NavbarHeader() {
   const [modalShow, setModalShow] = useState(false);
+  
 
   return (
     <Navbar bg="dark" expand="lg" className="py-3">
@@ -42,6 +43,9 @@ function NavbarHeader() {
               Contact-us
             </Nav.Link>
           </Nav>
+          <Nav.Link href="/login" className="text-white fs-5 mx-3">
+          Login
+        </Nav.Link>
           <Nav>
             <Nav.Link href="#cart" className="me-3">
               <Button
